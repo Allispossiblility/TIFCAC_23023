@@ -9,8 +9,11 @@ id:0,
 nombre:"",
 imagen:"",
 stock:0,
+color:"",
+temporada:"",
+talle,
 precio:0,
-url:'https://ec33.pythonanywhere.com/productos/'+id,
+url:'https://allispossibility.pythonanywhere.com/productos/'+id,
 }
 },
 methods: {
@@ -24,6 +27,9 @@ this.id=data.id
 this.nombre = data.nombre;
 this.imagen=data.imagen
 this.stock=data.stock
+this.color=data.color
+this.temporada=data.temporada
+this.talle=data.talle
 this.precio=data.precio
 })
 .catch(err => {
@@ -36,6 +42,9 @@ let producto = {
 nombre:this.nombre,
 precio: this.precio,
 stock: this.stock,
+color: this.color,
+temporada: this.temporada,
+talle: this.talle,
 imagen:this.imagen
 }
 var options = {

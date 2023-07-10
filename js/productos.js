@@ -5,7 +5,7 @@ return {
 productos:[],
 //url:'http://localhost:5000/productos',
 // si el backend esta corriendo local usar localhost 5000(si no lo subieron a pythonanywhere)
-url:'https://ec33.pythonanywhere.com/productos', // si ya lo subieron a pythonanywhere
+url:'https://allispossibility.pythonanywhere.com/productos', // si ya lo subieron a pythonanywhere
 error:false,
 cargando:true,
 /*atributos para el guardar los valores del formulario */
@@ -13,6 +13,9 @@ id:0,
 nombre:"",
 imagen:"",
 stock:0,
+color:"",
+temporada:"",
+talle,
 precio:0,
 }
 },
@@ -45,6 +48,9 @@ let producto = {
 nombre:this.nombre,
 precio: this.precio,
 stock: this.stock,
+color: this.color,
+temporada: this.temporada,
+talle: this.talle,
 imagen:this.imagen
 }
 var options = {
