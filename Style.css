@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: floralwhite;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color:floralwhite;
+  color:lightsalmon;
+}
+
+.logo{
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+
+/* boton ingresar*/
+.btn-primary {
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+}
+
+.templates {
+    background-color: floralwhite;
+}
+
+Button-Nuevo{
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(240, 236, 232);
+    color: rgb(195, 79, 8);
+    margin-top: 10px;
+}
+Button-Grabar{
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(240, 236, 232);
+    color: rgb(195, 79, 8);
+    margin-top: 10px;
+}
+
+para cambiar el color de los botones al presionarlos
+.validation{
+    display:none;
+    color: yellow;
+    margin-left: 0.5rem;
+}
+
+para fijar el color de la tabla y si quieren cambiar la letra   
+.div class="table-responsive"{  
+    font-family:   
+    font-style: italic;
+    background-color: rgb(240, 236, 232);
+     
+} 
+
+
